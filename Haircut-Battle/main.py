@@ -61,11 +61,11 @@ while True:
     spr = input(""+plr[0]["name"]+": ")
     pr = spr.upper()
     if pr == "Q":
-        plr[0]["haircut"] -= 5
+        plr[1]["haircut"] -= 5
     elif pr == "E":
-        plr[0]["haircut"] += 5
+        plr[1]["haircut"] += 5
     elif pr == "C":
-        plr[0]["haircut"] += 0
+        plr[1]["haircut"] += 0
     else:
         print("Invalid input")
 
@@ -94,11 +94,11 @@ while True:
     spr2 = input(""+plr[1]["name"]+": ")
     pr2 = spr2.upper()
     if pr2 == "Q":
-        plr[1]["haircut"] -= 5
+        plr[0]["haircut"] -= 5
     elif pr2 == "E":
-        plr[1]["haircut"] += 5
+        plr[0]["haircut"] += 5
     elif pr2 == "C":
-        plr[1]["haircut"] += 0
+        plr[0]["haircut"] += 0
     else:
         print("Invalid input")
     plr[1]["turn"] = not plr[1]["turn"]
