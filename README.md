@@ -1,2 +1,4 @@
 # haircut-battle-game
-Epic
+Haircut-Battle folder = New code
+The other folder is the first version
+
